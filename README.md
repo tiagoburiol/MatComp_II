@@ -7,12 +7,21 @@ Analisar, compreender e desenvolver modelos matemáticos e computacionais para e
 ## Tópicos:
 
 1 - Vetores e matrizes
+
 2 - Matrizes especiais e determinantes
+
 3 - Sistemas lineares e escalonamento
+
 4 - Métodos diretos 
+
 5 - Métodos iterativos
+
 6 - Funções de múltiplas variáveis
+
 7 - Gráficos de funções de duas variáveis
+
 8 - Máximos e mínimos em duas variáveis
+
 9 - Funções vetoriais e paramétricas
+
 10 - Visualização de campos vetoriais

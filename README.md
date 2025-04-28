@@ -25,3 +25,15 @@ Analisar, compreender e desenvolver modelos matemáticos e computacionais para e
 9 - Funções vetoriais e paramétricas
 
 10 - Visualização de campos vetoriais
+
+### Referências
+
+ARENALES, Selma; DAREZZO, Artur. Cálculo Numérico: aprendizagem com Apoio de Software. 2. ed. Porto Alegre: +A Educação - Cengage Learning Brasil, 2016. 
+
+BURDEN, Richard L.; FAIRES, J D.; BURDEN, Annette M. Análise Numérica - Tradução da 10ª edição norte-americana. 3. ed. Porto Alegre: +A Educação - Cengage Learning Brasil, 2016. 
+
+CHAPRA, Steven C.; CANALE, Raymond P. Métodos numéricos para engenharia. 7. ed. Porto Alegre: AMGH, 2016.
+
+FRANCO, Neide Bertoldi. Cálculo numérico. São Paulo: Pearson Prentice Hall, 2006. 
+
+RUGGIERO, M. A. G. e LOPES, V. L. R. Cálculo Numérico: Aspectos Teóricos e Computacionais. 2ª edição. Saraiva, 2016.

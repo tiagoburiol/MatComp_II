@@ -38,7 +38,11 @@ FRANCO, Neide Bertoldi. Cálculo numérico. São Paulo: Pearson Prentice Hall, 2
 
 GUIDORIZZI, Hamilton L. Um Curso de Cálculo - Volume 1. 6. ed. Rio de Janeiro: LTC, 2018. 
 
+KONG, Qingkai; SIAUW, Timmy; BAYEN, Alexandre M. Python Programming and Numerical Methods: A Guide For Engineers And Scientists. ed 1, Academic Press, 2021. DOI: https://doi.org/10.1016/C2018-0-04165-1.
+
 KREYSZIG, Erwin. Matemática superior. 10. ed. Rio de Janeiro: LTC, 2013.
+
+LANGTANGEN, Hans Pette. A Primer on Scientific Programming with Python. Texts in Computational Science and Engineering. Springer Berlin, Heidelberg, ed 5, 2016. DOI: https://doi.org/10.1007/978-3-662-49887-3. 
 
 RUGGIERO, M. A. G. e LOPES, V. L. R. Cálculo Numérico: Aspectos Teóricos e Computacionais. 2ª edição. Saraiva, 2016.
 

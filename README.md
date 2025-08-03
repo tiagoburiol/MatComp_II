@@ -44,6 +44,8 @@ KREYSZIG, Erwin. Matemática superior. 10. ed. Rio de Janeiro: LTC, 2013.
 
 LANGTANGEN, Hans Pette. A Primer on Scientific Programming with Python. Texts in Computational Science and Engineering. Springer Berlin, Heidelberg, ed 5, 2016. DOI: https://doi.org/10.1007/978-3-662-49887-3. 
 
+LEITHOLD, Louis. O Cálculo com Geometria Analítica. 3ª ed. São Paulo: Harbra, 1994. 
+
 RUGGIERO, M. A. G. e LOPES, V. L. R. Cálculo Numérico: Aspectos Teóricos e Computacionais. 2ª edição. Saraiva, 2016.
 
 STEWART, James; CLEGG, Daniel; WATSON, Saleem. Cálculo v.1. 6. ed. Porto Alegre: +A Educação - Cengage Learning Brasil, 2021. 

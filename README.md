@@ -51,3 +51,9 @@ RUGGIERO, M. A. G. e LOPES, V. L. R. Cálculo Numérico: Aspectos Teóricos e Co
 STEWART, James; CLEGG, Daniel; WATSON, Saleem. Cálculo v.1. 6. ed. Porto Alegre: +A Educação - Cengage Learning Brasil, 2021. 
 
 STEWART, James; CLEGG, Daniel; WATSON, Saleem. Cálculo v.2. 6. ed. Porto Alegre: +A Educação - Cengage Learning Brasil, 2022. 
+
+**Contribua:**  ☕
+
+Se gostou do conteúdo e tem sido útil para você, pode contribuir com o projeto pagando um café para nós, fazendo um pix usando o QR code abaixo ;) 
+
+<img title="p i x" src="https://github.com/tiagoburiol/MatComp_IV/blob/main/da28a188-c7e9-4900-9312-0a7cf54d5d8c.jpeg" width="180">

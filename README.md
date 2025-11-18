@@ -46,6 +46,8 @@ LANGTANGEN, Hans Pette. A Primer on Scientific Programming with Python. Texts in
 
 LEITHOLD, Louis. O Cálculo com Geometria Analítica. 3ª ed. São Paulo: Harbra, 1994. 
 
+ROSSANT, C. IPython interactive computing and visualization cookbook: Over 100 hands-on recipes to sharpen your skills in high-performance numerical computing and data science in the jupyter notebook. Packt Publishing Ltd., 2018. ([↓](https://astra.nti.tul.cz/~jan.brezina/PAV_course/Cyrille%20Rossant-IPython%20Interactive%20Computing%20and%20Visualization%20Cookbook.pdf))
+
 RUGGIERO, M. A. G. e LOPES, V. L. R. Cálculo Numérico: Aspectos Teóricos e Computacionais. 2ª edição. Saraiva, 2016.
 
 STEWART, James; CLEGG, Daniel; WATSON, Saleem. Cálculo v.1. 6. ed. Porto Alegre: +A Educação - Cengage Learning Brasil, 2021. 

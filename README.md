@@ -17,35 +17,35 @@ Analisar, compreender e desenvolver modelos matemáticos e computacionais para e
 
 ### Álgebra Linear e Geometria Analítica
 
-I.1 - Vetores e Matrizes
+[I.1 - Vetores e Matrizes](https://github.com/tiagoburiol/MatComp_II/blob/main/I.1_vetores_e_matrizes.ipynb)
 
-I.2 - SymPy e matrizes
+[I.2 - SymPy e matrizes](https://github.com/tiagoburiol/MatComp_II/blob/main/I.2_sympy_e_matrizes.ipynb)
 
-I.3 - Matrizes especiais e determinante
+[I.3 - Matrizes especiais e determinante](https://github.com/tiagoburiol/MatComp_II/blob/main/I.3_matrizes_especiais_e_determinantes.ipynb)
 
-I.4 - Sistemas lineares e escalonamento
+[I.4 - Sistemas lineares e escalonamento](https://github.com/tiagoburiol/MatComp_II/blob/main/I.4_sistemas_lineares_e_escalonamento.ipynb)
 
-I.5 - Métodos diretos para sistemas lineares
+[I.5 - Métodos diretos para sistemas lineares](https://github.com/tiagoburiol/MatComp_II/blob/main/I.5_metodos_diretos_para_sistemas_lineares.ipynb)
 
-I.6 - Métodos iterativos
+[I.6 - Métodos iterativos](https://github.com/tiagoburiol/MatComp_II/blob/main/I.6_metodos_iterativos_para_sistemas_lineares.ipynb)
 
-I.7 - Autovalores e Autovetores
+[I.7 - Autovalores e Autovetores](https://github.com/tiagoburiol/MatComp_II/blob/main/I.7_autovalores_autovetores.ipynb)
 
 ### Cálculo II
 
-II.1 - Funções de múltiplas variáveis
+[II.1 - Funções de múltiplas variáveis](https://github.com/tiagoburiol/MatComp_II/blob/main/II.1_funcoes_multiplas_variaveis.ipynb)
 
-II.2 - Limites e derivadas em múltiplas variáveis
+[II.2 - Limites e derivadas em múltiplas variáveis](https://github.com/tiagoburiol/MatComp_II/blob/main/II.2_limites_e_derivadas_em_multiplas_variaveis.ipynb)
 
-II.3 - Aplicações do cálculo multivariado
+[II.3 - Aplicações do cálculo multivariado](https://github.com/tiagoburiol/MatComp_II/blob/main/II.3_aplicacoes_do_calculo_multivariado.ipynb)
 
-II.4 - Máximos e Mínimos de funções de duas variáveis
+[II.4 - Máximos e Mínimos de funções de duas variáveis](https://github.com/tiagoburiol/MatComp_II/blob/main/II.4_maximos_e_minimos_funcoes_de_duas_variaveis.ipynb)
 
-II.5 - Integrais múltiplas
+[II.5 - Integrais múltiplas](https://github.com/tiagoburiol/MatComp_II/blob/main/II.5_integrais_multiplas.ipynb)
 
-II.6 - Funções Vetoriais e Curvas Espaciais
+[II.6 - Funções Vetoriais e Curvas Espaciais](https://github.com/tiagoburiol/MatComp_II/blob/main/II.6_funcoes_vetoriais_e_curvas_espaciais.ipynb)
 
-II.7 - Cálculo com funções vetoriais
+[II.7 - Cálculo com funções vetoriais](https://github.com/tiagoburiol/MatComp_II/blob/main/II.7_calculo_com_funcoes_vetoriais.ipynb)
 
 ### Referências
 

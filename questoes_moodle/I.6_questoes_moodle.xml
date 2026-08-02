@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+<!-- question: I6_Q1_jacobi_segunda_iteracao -->
+  <question type="multichoice">
+    <name>
+      <text>I6_Q1_jacobi_segunda_iteracao</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Considere o sistema linear</p><p>8x&#8321; + x&#8322; + 2x&#8323; = 15<br>x&#8321; + 6x&#8322; + x&#8323; = 9<br>x&#8321; + 2x&#8322; + 7x&#8323; = 17</p><p>Aplicando o método de Jacobi-Richardson a partir de x<sup>(0)</sup> = (0, 0, 0), qual é o valor aproximado (4 casas decimais) de x<sub>1</sub><sup>(2)</sup>, isto é, a primeira componente após a <strong>segunda</strong> iteração?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>1,0804</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1,8750</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0,7827</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1,7321</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: I6_Q2_matriz_iteracao_entrada -->
+  <question type="multichoice">
+    <name>
+      <text>I6_Q2_matriz_iteracao_entrada</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Para o sistema do notebook (matriz de iteração de Jacobi, H = I - A/diag(A)), com</p><p>A = [[8, 1, 2], [1, 6, 1], [1, 2, 7]]</p><p>qual é o valor da entrada <code>H[0, 2]</code>?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>-0,25</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>-0,125</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0,25</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>-0,1667</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: I6_Q3_norma_infinito_convergencia -->
+  <question type="multichoice">
+    <name>
+      <text>I6_Q3_norma_infinito_convergencia</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Para a matriz de iteração H obtida a partir de A = [[8, 1, 2], [1, 6, 1], [1, 2, 7]], qual é o valor da norma infinito (norma linha) de H, usada no critério geral de convergência do notebook?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>0,4286</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0,3750</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0,1667</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0,6667</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: I6_Q4_gauss_seidel_segunda_iteracao -->
+  <question type="multichoice">
+    <name>
+      <text>I6_Q4_gauss_seidel_segunda_iteracao</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Para o mesmo sistema</p><p>8x&#8321; + x&#8322; + 2x&#8323; = 15<br>x&#8321; + 6x&#8322; + x&#8323; = 9<br>x&#8321; + 2x&#8322; + 7x&#8323; = 17</p><p>aplicando o método de Gauss-Seidel a partir de x<sup>(0)</sup> = (0, 0, 0), qual é o valor aproximado (4 casas decimais) de x<sub>3</sub><sup>(2)</sup> após a segunda iteração?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>1,9657</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1,8214</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1,2712</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0,9846</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: I6_Q5_criterio_sassenfeld_beta -->
+  <question type="multichoice">
+    <name>
+      <text>I6_Q5_criterio_sassenfeld_beta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Aplicando o critério de Sassenfeld à matriz H obtida a partir de A = [[8, 1, 2], [1, 6, 1], [1, 2, 7]], qual é o valor de &beta; = max{&beta;<sub>i</sub>} (3 casas decimais)?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>0,375</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0,229</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0,119</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0,429</p>]]></text>
+    </answer>
+  </question>
+
+</quiz>

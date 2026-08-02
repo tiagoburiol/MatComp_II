@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+<!-- question: I7_Q1_maior_autovalor -->
+  <question type="multichoice">
+    <name>
+      <text>I7_Q1_maior_autovalor</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Seja a matriz A = [[2, 1, 1], [1, 2, 1], [1, 1, 2]]. Calculando os autovalores de A (por exemplo, com <code>A.eigenvals()</code> do SymPy ou <code>np.linalg.eigvals</code>), qual é o <strong>maior</strong> autovalor de A?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>4</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>2</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>3</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: I7_Q2_autovetor_maior_autovalor -->
+  <question type="multichoice">
+    <name>
+      <text>I7_Q2_autovetor_maior_autovalor</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Seja a matriz A = [[5, 4], [1, 2]]. O maior autovalor de A é &lambda; = 6. Resolvendo o sistema (A - 6I)v = 0, qual é o autovetor associado a &lambda; = 6, na forma mais simples com a segunda componente igual a 1?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>(4, 1)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>(-1, 1)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>(1, 4)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>(1, -1)</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: I7_Q3_multiplicidade_geometrica -->
+  <question type="multichoice">
+    <name>
+      <text>I7_Q3_multiplicidade_geometrica</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Seja a matriz B = [[3, 1], [0, 3]]. O polin&ocirc;mio caracter&iacute;stico de B tem &lambda; = 3 como raiz dupla (multiplicidade alg&eacute;brica 2). Usando <code>B.eigenvects()</code> do SymPy para resolver (B - 3I)v = 0, qual &eacute; a <strong>multiplicidade geom&eacute;trica</strong> de &lambda; = 3, ou seja, quantos autovetores linearmente independentes existem para esse autovalor?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>1</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>2</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>3</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: I7_Q4_convergencia_via_autovalores -->
+  <question type="multichoice">
+    <name>
+      <text>I7_Q4_convergencia_via_autovalores</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>No notebook <a href="I.6_metodos_iterativos_para_sistemas_lineares.ipynb">I.6</a>, vimos que um processo iterativo x<sup>(k+1)</sup> = Hx<sup>(k)</sup> + g converge se, e somente se, max{|&lambda;<sub>i</sub>|} &lt; 1, sendo &lambda;<sub>i</sub> os autovalores de H. Para a matriz de itera&ccedil;&atilde;o</p><p>H = [[0, -0.125, -0.25], [-0.1667, 0, -0.1667], [-0.1429, -0.2857, 0]]</p><p>qual &eacute; o valor aproximado (4 casas decimais) de max{|&lambda;<sub>i</sub>|}, calculado com <code>np.linalg.eigvals</code>?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>0,3788</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1,0000</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0,1894</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0,6667</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: I7_Q5_autovetor_diagonalizacao -->
+  <question type="multichoice">
+    <name>
+      <text>I7_Q5_autovetor_diagonalizacao</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Seja a matriz C = [[0, 1], [-2, 3]], cujos autovalores s&atilde;o &lambda; = 1 e &lambda; = 2. Resolvendo (C - 2I)v = 0, qual &eacute; o autovetor associado a &lambda; = 2, na forma mais simples com componentes inteiras e primeira componente igual a 1?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>(1, 2)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>(1, 1)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>(2, 1)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>(1, -2)</p>]]></text>
+    </answer>
+  </question>
+
+</quiz>

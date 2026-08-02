@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+<!-- question: II7_Q1_derivada_funcao_vetorial -->
+  <question type="multichoice">
+    <name>
+      <text>II7_Q1_derivada_funcao_vetorial</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Como no Exemplo 10.1 do notebook, seja <strong>r</strong>(t) = (t&sup2;, 3t, ln(t+1)). Calculando <strong>r</strong>'(t) com SymPy e avaliando em t = 1, qual é o vetor <strong>r</strong>'(1) obtido?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>(2, 3, 1/2)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>(2, 3, 1)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>(1, 3, 1/2)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>(2, 3, 0)</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: II7_Q2_integral_definida_componente -->
+  <question type="multichoice">
+    <name>
+      <text>II7_Q2_integral_definida_componente</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Como no Exemplo 10.2 do notebook, seja <strong>r</strong>(t) = (3t&sup2;, sen t, e<sup>2t</sup>). Calculando &int;<sub>0</sub><sup>1</sup> <strong>r</strong>(t) dt com SymPy, qual é o valor aproximado (4 casas decimais) da <strong>terceira</strong> componente do vetor resultante?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>3,1945</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1,0000</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0,4597</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>6,3891</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: II7_Q3_curvatura_ponto -->
+  <question type="multichoice">
+    <name>
+      <text>II7_Q3_curvatura_ponto</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Como no Exemplo 10.4 do notebook, seja <strong>r</strong>(t) = (2t, t&sup2;, t). Calculando &kappa;(t) = |<strong>r</strong>'(t) &times; <strong>r</strong>''(t)| / |<strong>r</strong>'(t)|&sup3; com SymPy, qual é o valor de &kappa;(0)?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>0,4</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0,894</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0,2</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1,0</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: II7_Q4_curvatura_helice -->
+  <question type="multichoice">
+    <name>
+      <text>II7_Q4_curvatura_helice</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Como no Exemplo 10.4 do notebook, calcule a curvatura &kappa;(t) da hélice <strong>r</strong>(t) = (3cos t, 3sen t, 4t) (que, nesse caso, é constante). Qual é o valor de &kappa;?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>3/25</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>4/25</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>3/16</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>3/5</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: II7_Q5_trabalho_campo_vetorial -->
+  <question type="multichoice">
+    <name>
+      <text>II7_Q5_trabalho_campo_vetorial</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Como no Exemplo 10.8 do notebook, calcule o trabalho realizado pelo campo de força <strong>F</strong>(x, y) = (y, -x) ao mover uma partícula ao longo da semicircunferência <strong>r</strong>(t) = (cos t, sen t), com 0 &le; t &le; &pi;. Qual é o valor exato do trabalho &int;<sub>C</sub> <strong>F</strong>&middot;d<strong>r</strong>?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>-&pi;</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>&pi;</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>&pi;/2</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0</p>]]></text>
+    </answer>
+  </question>
+
+</quiz>

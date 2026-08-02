@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+<!-- question: I1_Q1_angulo_entre_vetores -->
+  <question type="multichoice">
+    <name>
+      <text>I1_Q1_angulo_entre_vetores</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Considere os vetores <strong>u = (2, -1, 3)</strong> e <strong>v = (1, 4, -2)</strong>. Usando <code>numpy</code> (produto escalar, norma e <code>np.arccos</code>), calcule o ângulo entre <strong>u</strong> e <strong>v</strong>, em graus. Qual é o valor mais próximo do ângulo obtido?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>118&deg;</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>62&deg;</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>90&deg;</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>34&deg;</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: I1_Q2_produto_matrizes_elemento -->
+  <question type="multichoice">
+    <name>
+      <text>I1_Q2_produto_matrizes_elemento</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Sejam as matrizes do notebook</p><p><strong>A</strong> = [[1,2,3], [-1,5,0], [7,-2,4]]  e  <strong>B</strong> = [[0,-2,1], [1,0,5], [1,-2,2]]</p><p>Calculando <code>A@B</code> em Python, qual é o valor do elemento <code>(A@B)[1,2]</code> (linha de índice 1, coluna de índice 2)?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>24</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>23</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>17</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>5</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: I1_Q3_norma_produto_vetorial -->
+  <question type="multichoice">
+    <name>
+      <text>I1_Q3_norma_produto_vetorial</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Dados os vetores <strong>u = (3, -1, 2)</strong> e <strong>v = (-2, 4, 1)</strong>, calcule <code>w = np.cross(u, v)</code> e, em seguida, a norma de <code>w</code> (<code>np.linalg.norm(w)</code>, equivalente à área do paralelogramo definido por u e v). Qual é o valor aproximado obtido, com duas casas decimais?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>15,17</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>-8,00</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>26,00</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>4,36</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: I1_Q4_diagonal_combinacao_linear -->
+  <question type="multichoice">
+    <name>
+      <text>I1_Q4_diagonal_combinacao_linear</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Usando as matrizes <strong>A</strong> e <strong>B</strong> do notebook (A = [[1,2,3],[-1,5,0],[7,-2,4]] e B = [[0,-2,1],[1,0,5],[1,-2,2]]), calcule a combinação linear <code>2*A - 3*B</code> e, em seguida, extraia sua diagonal com <code>np.diag(...)</code>. Qual é o resultado?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>[2, 10, 2]</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>[-2, -10, -2]</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>[2, 10, 3]</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>[1, 5, 2]</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: I1_Q5_identidade_produto_misto -->
+  <question type="multichoice">
+    <name>
+      <text>I1_Q5_identidade_produto_misto</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Qual é a saída impressa pelo código a seguir?</p><pre>u = np.array([2, -3, 1])
+v = np.array([1, 2, -2])
+w = np.cross(u, v)
+print(np.dot(u, w))</pre>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>0</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>-6</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>9</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>16</p>]]></text>
+    </answer>
+  </question>
+
+</quiz>

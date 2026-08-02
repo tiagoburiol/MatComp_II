@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+<!-- question: II5_Q1_integral_dupla_sympy -->
+  <question type="multichoice">
+    <name>
+      <text>II5_Q1_integral_dupla_sympy</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Como no Exemplo 8.1 do notebook, use <code>sympy.integrate</code> para calcular o valor exato da integral dupla</p><p>&int;&int;<sub>R</sub> (20 - x&sup2; - 3y&sup2;) dA</p><p>onde R = [0,3] &times; [0,2]. Qual é o valor obtido?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>78</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>94</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>58</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>120</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: II5_Q2_soma_riemann_dupla -->
+  <question type="multichoice">
+    <name>
+      <text>II5_Q2_soma_riemann_dupla</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Como no Exemplo 8.2 do notebook, aproxime a integral dupla de f(x,y) = 20 - x&sup2; - 3y&sup2; sobre R = [0,2] &times; [0,2] usando a soma dupla de Riemann, dividindo R em quadrados 4&times;4 (dx = dy = 0,5), com os pontos de amostragem nos cantos superiores de cada célula (como no código do notebook: <code>np.arange(dx, 2+dx, dx)</code>). Qual é o valor aproximado obtido para o volume?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>50,00</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>58,67</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>44,00</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>100,00</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: II5_Q3_regra_trapezios_dupla -->
+  <question type="multichoice">
+    <name>
+      <text>II5_Q3_regra_trapezios_dupla</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Como no Exemplo 8.4 do notebook, use a função <code>trapz2D</code> para calcular a integral dupla de f(x,y) = sen(x+y) sobre [0,2] &times; [0,1], com h<sub>x</sub> = h<sub>y</sub> = 0,5. Qual é o valor aproximado (4 casas decimais) obtido?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>1,5430</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1,6096</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>3,0860</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0,7715</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: II5_Q4_area_entre_curvas -->
+  <question type="multichoice">
+    <name>
+      <text>II5_Q4_area_entre_curvas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Como no Exemplo 8.9 do notebook, determine a área da região D delimitada pelas parábolas y = x&sup2; e y = 2 - x&sup2;, usando SymPy para encontrar os limites de integração e calcular &int;&int;<sub>D</sub> dA. Qual é o valor exato da área?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>8/3</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>4/3</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>16/3</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>2</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: II5_Q5_integral_tripla_ordem -->
+  <question type="multichoice">
+    <name>
+      <text>II5_Q5_integral_tripla_ordem</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Como no Exemplo 8.15 do notebook, calcule a integral tripla</p><p>&iiint;<sub>B</sub> xy&sup2;z dV</p><p>onde B = [0,2] &times; [0,1] &times; [0,3], usando <code>sympy.integrate</code>. Qual é o valor obtido (o resultado deve ser o mesmo, independentemente da ordem de integração escolhida)?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>3</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>6</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1,5</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0</p>]]></text>
+    </answer>
+  </question>
+
+</quiz>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+<!-- question: II6_Q1_comprimento_helice -->
+  <question type="multichoice">
+    <name>
+      <text>II6_Q1_comprimento_helice</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Como no Exemplo 9.7 do notebook, calcule (com SymPy, integrando o módulo de <strong>r</strong>'(t)) o comprimento da hélice circular</p><p><strong>r</strong>(t) = (3cos t, 3sen t, 4t), &nbsp; 0 &le; t &le; 2&pi;</p><p>Qual é o valor exato do comprimento?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>10&pi;</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>5&pi;</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>20&pi;</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>25&pi;</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: II6_Q2_curva_intersecao_ponto -->
+  <question type="multichoice">
+    <name>
+      <text>II6_Q2_curva_intersecao_ponto</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Como no Exemplo 9.3 do notebook, considere a curva obtida pela interseção do cilindro x&sup2;+y&sup2;=1 com um plano, parametrizada por</p><p>x = cos t, &nbsp; y = sen t, &nbsp; z = 3 - 2sen t</p><p>Qual é o ponto (x, y, z) correspondente a t = &pi;/2?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>(0, 1, 1)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>(0, 1, 3)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>(1, 0, 1)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>(0, -1, 1)</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: II6_Q3_campo_gradiente_avaliacao -->
+  <question type="multichoice">
+    <name>
+      <text>II6_Q3_campo_gradiente_avaliacao</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Como no Exemplo 9.9 do notebook (campo gradiente), seja f(x, y) = x&sup2;y - sen(y). Qual é o vetor gradiente &nabla;f(2, 0)?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>(0, 3)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>(4, 3)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>(0, -3)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>(4, -3)</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: II6_Q4_campo_vetorial_avaliacao -->
+  <question type="multichoice">
+    <name>
+      <text>II6_Q4_campo_vetorial_avaliacao</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Como no Exemplo 9.8 do notebook (campo vetorial em R&sup2;), seja <strong>F</strong>(x, y) = (x&sup2; - y, xy). Qual é o vetor <strong>F</strong>(3, -1)?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>(10, -3)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>(8, -3)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>(10, 3)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>(9, -3)</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: II6_Q5_reta_intersecao_plano -->
+  <question type="multichoice">
+    <name>
+      <text>II6_Q5_reta_intersecao_plano</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Como no Exemplo 9.1 do notebook, considere a reta definida pela função vetorial</p><p><strong>r</strong>(t) = (1+t, 2+5t, -1+6t)</p><p>Para qual ponto (x, y, z) essa reta cruza o plano z = 11?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>(3, 12, 11)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>(4, 17, 11)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>(1, 2, 11)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>(2, 7, 11)</p>]]></text>
+    </answer>
+  </question>
+
+</quiz>

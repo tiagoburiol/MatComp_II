@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+<!-- question: II2_Q1_limite_caminho_parabolico -->
+  <question type="multichoice">
+    <name>
+      <text>II2_Q1_limite_caminho_parabolico</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Como no Exemplo 1 do notebook, considere agora f(x, y) = x&sup2;y / (x&#8308; + y&sup2;). Investigando o limite de f quando (x, y) &rarr; (0, 0) ao longo do caminho parabólico y = x&sup2;, qual valor se obtém?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>1/2</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>-1/2</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: II2_Q2_derivada_parcial_exata -->
+  <question type="multichoice">
+    <name>
+      <text>II2_Q2_derivada_parcial_exata</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Seja f(x, y) = y&sup2;cos(x) + ln(x+y). Usando <code>sympy.diff</code>, calcule f<sub>x</sub>(x, y) e avalie em (1, 2). Qual é o valor aproximado (4 casas decimais) de f<sub>x</sub>(1, 2)?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>-3,0326</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>2,4945</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>3,0326</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>-0,6667</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: II2_Q3_clairaut_derivada_mista -->
+  <question type="multichoice">
+    <name>
+      <text>II2_Q3_clairaut_derivada_mista</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Seja f(x, y) = e<sup>xy</sup>sen(x + y). Calculando a derivada mista f<sub>xy</sub>(x, y) = &part;&sup2;f/&part;x&part;y com SymPy e avaliando em (0, 1), qual é o valor aproximado (4 casas decimais) obtido?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>0,5403</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>-0,5403</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0,8415</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1,0000</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: II2_Q4_regra_da_cadeia -->
+  <question type="multichoice">
+    <name>
+      <text>II2_Q4_regra_da_cadeia</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Seja z = f(x, y) = xy&sup2; - y, com x(t) = t&sup2; + 1 e y(t) = 2t. Usando a regra da cadeia (ou substituição direta e derivação com SymPy, como no Exemplo 4), qual é o valor de dz/dt em t = 1?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>22</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>16</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>8</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>24</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: II2_Q5_derivada_direcional -->
+  <question type="multichoice">
+    <name>
+      <text>II2_Q5_derivada_direcional</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Seja f(x, y) = x&sup3; - 3xy + y&sup2;. Calcule o gradiente &nabla;f no ponto (2, -1) e, em seguida, a derivada direcional D<sub>u</sub>f(2, -1) na direção do vetor v = (3, -4) (lembre-se de normalizar v). Qual é o valor obtido?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>15,4</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>77</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>17</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>-15,4</p>]]></text>
+    </answer>
+  </question>
+
+</quiz>

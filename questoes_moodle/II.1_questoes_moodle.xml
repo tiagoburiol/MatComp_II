@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+<!-- question: II1_Q1_distancia_duas_variaveis -->
+  <question type="multichoice">
+    <name>
+      <text>II1_Q1_distancia_duas_variaveis</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>No Exemplo 1 do notebook, a distância de um ponto (x, y) até o ponto (2, 1) é dada por d(x, y) = &radic;((x-2)&sup2; + (y-1)&sup2;). Qual é o valor aproximado (2 casas decimais) de d(7, -2)?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>5,83</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>9,49</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>34,00</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>4,00</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: II1_Q2_avaliacao_funcao_codigo -->
+  <question type="multichoice">
+    <name>
+      <text>II1_Q2_avaliacao_funcao_codigo</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>No Exemplo 2 do notebook, a função é definida no código Python como</p><pre>f = lambda x, y: x**2 - 2*y**2</pre><p>Qual é o valor de <code>f(6, -4)</code>?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>4</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>68</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>-4</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>52</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: II1_Q3_modulo_gradiente -->
+  <question type="multichoice">
+    <name>
+      <text>II1_Q3_modulo_gradiente</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>No Exemplo 4 do notebook, calculam-se as derivadas parciais de f(x, y) = sen(x)sen(y)/(xy) com SymPy. Qual é o valor aproximado (4 casas decimais) do módulo do vetor gradiente, |&nabla;f| = &radic;(f<sub>x</sub>&sup2; + f<sub>y</sub>&sup2;), no ponto (2, 3)?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>0,1585</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0,0205</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0,1572</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0,1600</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: II1_Q4_distancia_tres_variaveis -->
+  <question type="multichoice">
+    <name>
+      <text>II1_Q4_distancia_tres_variaveis</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>No Exemplo 5 do notebook, a distância de um ponto (x, y, z) até o ponto (3, 2, 1) é dada por d(x, y, z) = &radic;((x-3)&sup2; + (y-2)&sup2; + (z-1)&sup2;). Qual é o valor aproximado (2 casas decimais) de d(0, 6, 5)?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>6,40</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>5,00</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>10,44</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>8,00</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: II1_Q5_avaliacao_campo_vetorial -->
+  <question type="multichoice">
+    <name>
+      <text>II1_Q5_avaliacao_campo_vetorial</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>No Exemplo 7 do notebook, o campo vetorial é dado por f(x, y) = (-y&sup2;/&radic;(x&#8308;+y&#8308;), x/&radic;(x&sup2;+y&sup2;)). Qual é o valor aproximado (4 casas decimais) da primeira componente desse campo no ponto (1, 2)?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>-0,9701</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0,9701</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0,4472</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>-0,4000</p>]]></text>
+    </answer>
+  </question>
+
+</quiz>

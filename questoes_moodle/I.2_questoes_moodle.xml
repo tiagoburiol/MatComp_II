@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+<!-- question: I2_Q1_matrix_construtor_funcao -->
+  <question type="multichoice">
+    <name>
+      <text>I2_Q1_matrix_construtor_funcao</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>No SymPy, usando o construtor por termo geral do Exemplo 6 do notebook,</p><pre>aij = lambda i, j: 10*i + j
+M = sp.Matrix(3, 4, aij)</pre><p>qual é o valor do elemento <code>M[2, 3]</code> (linha de índice 2, coluna de índice 3)?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>23</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>32</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>20</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>24</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: I2_Q2_norma_simbolica_exata -->
+  <question type="multichoice">
+    <name>
+      <text>I2_Q2_norma_simbolica_exata</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Considere o vetor <strong>u = (2, -1, 3)</strong>, representado como <code>sp.Matrix([2, -1, 3])</code>. Qual é o valor retornado por <code>u.norm()</code> no SymPy, na forma exata (simbólica, sem aproximação decimal)?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>&radic;14</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>&radic;12</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>&radic;6</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>14</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: I2_Q3_inversa_simbolica_entrada -->
+  <question type="multichoice">
+    <name>
+      <text>I2_Q3_inversa_simbolica_entrada</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Seja a matriz tridiagonal <strong>M</strong> = [[2,1,0], [1,3,1], [0,1,2]], representada como <code>sp.Matrix</code>. Calculando <code>M.inv()</code>, qual é o valor exato da entrada <code>M.inv()[1, 1]</code>?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>1/2</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>5/8</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>-1/4</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1/8</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: I2_Q4_nao_comutatividade_entrada -->
+  <question type="multichoice">
+    <name>
+      <text>I2_Q4_nao_comutatividade_entrada</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Sejam as matrizes <strong>A</strong> = [[1,2],[0,3]] e <strong>B</strong> = [[2,0],[1,-1]], criadas como <code>sp.Matrix</code>. Calculando <code>C = A*B - B*A</code>, qual é o valor da entrada <code>C[0, 1]</code>, que confirma que <code>A*B &ne; B*A</code>?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>-6</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>6</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>-2</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>2</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: I2_Q5_diagonal_combinacao_linear_sympy -->
+  <question type="multichoice">
+    <name>
+      <text>I2_Q5_diagonal_combinacao_linear_sympy</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Sejam <strong>M</strong> = [[4,-2],[1,3]] e <strong>B</strong> = [[0,5],[-1,2]], representadas como <code>sp.Matrix</code>. Calculando a combinação linear <code>2*M - 3*B</code> e, em seguida, <code>.diagonal()</code> desse resultado, qual é a matriz linha obtida?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>[8, 0]</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>[-8, 0]</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>[8, -19]</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>[5, 0]</p>]]></text>
+    </answer>
+  </question>
+
+</quiz>

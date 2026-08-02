@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+<!-- question: II4_Q1_teste_derivada_segunda_D -->
+  <question type="multichoice">
+    <name>
+      <text>II4_Q1_teste_derivada_segunda_D</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Seja f(x, y) = x&sup3; + y&sup3; - 3xy. Os pontos críticos de f são (0,0) e (1,1). Usando o teste da derivada segunda, D = f<sub>xx</sub>f<sub>yy</sub> - (f<sub>xy</sub>)&sup2;, qual é o valor de D no ponto (1, 1)?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>27</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>-9</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>36</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>9</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: II4_Q2_valor_funcao_ponto_critico -->
+  <question type="multichoice">
+    <name>
+      <text>II4_Q2_valor_funcao_ponto_critico</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Para a mesma função f(x, y) = x&sup3; + y&sup3; - 3xy, o ponto crítico (1, 1) é um mínimo local (D &gt; 0 e f<sub>xx</sub> &gt; 0). Qual é o valor de f(1, 1)?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>-1</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>-3</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: II4_Q3_nsolve_ponto_critico -->
+  <question type="multichoice">
+    <name>
+      <text>II4_Q3_nsolve_ponto_critico</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Como no Exemplo 6 do notebook, para f(x, y) = 10x&sup2;y - 5x&sup2; - 4y&sup2; - x&#8308; - 2y&#8308;, usando <code>sp.nsolve([dzdx, dzdy], [x, y], [-2, 1.8])</code> a partir da aproximação inicial (-2, 1,8), qual é o ponto crítico obtido (2 casas decimais)?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>(-2,64; 1,90)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>(-0,86; 0,65)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>(0, 0)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>(-2,00; 1,80)</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: II4_Q4_valor_funcao_nsolve -->
+  <question type="multichoice">
+    <name>
+      <text>II4_Q4_valor_funcao_nsolve</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Ainda para f(x, y) = 10x&sup2;y - 5x&sup2; - 4y&sup2; - x&#8308; - 2y&#8308;, usando <code>sp.nsolve</code> a partir da aproximação inicial (-0,8; 0,6), obtém-se o ponto crítico aproximado (-0,857; 0,647). Qual é o valor aproximado (4 casas decimais) de f nesse ponto?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>-1,4847</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>8,4959</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0,0000</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>-2,5439</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: II4_Q5_classificacao_ponto_sela -->
+  <question type="multichoice">
+    <name>
+      <text>II4_Q5_classificacao_ponto_sela</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Para f(x, y) = x&sup3; + y&sup3; - 3xy, qual é a classificação do ponto crítico (0, 0), segundo o teste da derivada segunda?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Ponto de sela</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Mínimo local</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Máximo local</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Inconclusivo (D = 0)</p>]]></text>
+    </answer>
+  </question>
+
+</quiz>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+<!-- question: II3_Q1_plano_tangente_intercepto -->
+  <question type="multichoice">
+    <name>
+      <text>II3_Q1_plano_tangente_intercepto</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Como no Exemplo 1 do notebook, obtenha o plano tangente ao gráfico de f(x, y) = x&sup2; + xy no ponto (2, 1, f(2,1)), usando SymPy. Qual é o valor de z quando x = 0 e y = 0 no plano tangente obtido (o &quot;intercepto&quot; em z)?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>-6</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>6</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>10</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>-10</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: II3_Q2_aproximacao_linear -->
+  <question type="multichoice">
+    <name>
+      <text>II3_Q2_aproximacao_linear</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Como no Exemplo 2 do notebook, use a linearização de f(x, y) = &radic;(x&sup2;+y&sup2;) em torno do ponto (5, 12) para estimar f(5,2; 11,9), <strong>sem calcular a raiz diretamente</strong>. Qual é o valor aproximado (4 casas decimais) de L(5,2; 11,9)?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>12,9846</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>12,9865</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>13,0000</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>12,5000</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: II3_Q3_diferencial_propagacao_erro -->
+  <question type="multichoice">
+    <name>
+      <text>II3_Q3_diferencial_propagacao_erro</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Como no Exemplo 3 do notebook, o volume de um cone circular reto é V = (1/3)&pi;r&sup2;h. Medimos r = 6 cm e h = 9 cm, cada um com erro máximo de 0,03 cm. Usando a diferencial dV = V<sub>r</sub>dr + V<sub>h</sub>dh, qual é o erro máximo aproximado (4 casas decimais) propagado no cálculo do volume, em cm&sup3;?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>4,5239</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>2,5239</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>9,0478</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>6,0319</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: II3_Q4_taxas_relacionadas_esfera -->
+  <question type="multichoice">
+    <name>
+      <text>II3_Q4_taxas_relacionadas_esfera</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Um balão esférico está sendo inflado a uma taxa constante de dV/dt = 100 cm&sup3;/s. Sabendo que V = (4/3)&pi;r&sup3;, use a regra da cadeia (como no Exemplo 4 do notebook) para determinar dr/dt no instante em que r = 5 cm. Qual é o valor aproximado (4 casas decimais), em cm/s?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>0,3183</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>3,1831</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0,6366</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1,0000</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: II3_Q5_reta_normal_ponto -->
+  <question type="multichoice">
+    <name>
+      <text>II3_Q5_reta_normal_ponto</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Seja f(x, y) = 4 - x&sup2; - y&sup2;. A reta normal à superfície z = f(x,y) no ponto (1, 1, f(1,1)) tem equação paramétrica (x,y,z) = (1,1,f(1,1)) + s&middot;(f<sub>x</sub>(1,1), f<sub>y</sub>(1,1), -1). Qual é o ponto obtido para s = 1?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>(-1, -1, 1)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>(1, 1, 2)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>(3, 3, 1)</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>(-1, -1, -1)</p>]]></text>
+    </answer>
+  </question>
+
+</quiz>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+<!-- question: I3_Q1_determinante_vandermonde -->
+  <question type="multichoice">
+    <name>
+      <text>I3_Q1_determinante_vandermonde</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Como no Exemplo 6 do notebook, considere <strong>x = (1, 3, 5)</strong> e a matriz de Vandermonde <code>M = np.array([x**0, x**1, x**2]).T</code>. Qual é o valor de <code>np.linalg.det(M)</code> (arredondado para o inteiro mais próximo)?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>16</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>8</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>32</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>20</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: I3_Q2_determinante_matriz_ortogonal -->
+  <question type="multichoice">
+    <name>
+      <text>I3_Q2_determinante_matriz_ortogonal</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Para a matriz <strong>A</strong> do Exemplo 2 do notebook,</p><p>A = [[0.6711, -0.1924, 0.7163], [0.1924, 0.9631, 0.1924], [-0.7163, 0.1924, 0.6711]]</p><p>qual é o valor de <code>np.linalg.det(A)</code>, com 4 casas decimais? (Lembre-se de que os valores de A foram truncados, então o resultado não é exatamente 1.)</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>0,9809</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1,0000</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>-0,9809</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0,9631</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: I3_Q3_entrada_matriz_rotacao -->
+  <question type="multichoice">
+    <name>
+      <text>I3_Q3_entrada_matriz_rotacao</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Considere a matriz de rotação do Exemplo 5 do notebook, R<sub>&theta;</sub> = [[cos &theta;, -sen &theta;], [sen &theta;, cos &theta;]], com &theta; = 5&pi;/6 rad. Qual é o valor aproximado (4 casas decimais) da entrada <code>R[0, 0]</code>?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>-0,8660</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0,8660</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0,5000</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>-0,5000</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: I3_Q4_determinante_matriz_singular -->
+  <question type="multichoice">
+    <name>
+      <text>I3_Q4_determinante_matriz_singular</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Considere a matriz da Atividade do notebook,</p><p>A = [[1, 2, -3], [-1, 1, -2], [1, 5, -8]]</p><p>Qual é o valor de <code>np.linalg.det(A)</code>?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>0</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>-3</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>5</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>12</p>]]></text>
+    </answer>
+  </question>
+
+<!-- question: I3_Q5_soma_triangular_superior -->
+  <question type="multichoice">
+    <name>
+      <text>I3_Q5_soma_triangular_superior</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Seja <strong>A</strong> = [[5, -3, 4], [1, 4, -2], [0, 6, 7]]. Calculando <code>np.triu(A)</code> e somando todos os seus elementos (<code>np.triu(A).sum()</code>), qual é o resultado?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>15</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>23</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>22</p>]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>16</p>]]></text>
+    </answer>
+  </question>
+
+</quiz>

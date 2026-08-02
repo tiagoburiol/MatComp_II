@@ -1,6 +1,8 @@
 # MatComp_II
 Material didático para a disciplina de Matemática Computacional II - UFSM00041.
 
+## Apresentação
+
 Este material foi desenvolvido para ser utilizado paralelamente às disciplinas de **Álgebra Linear e Geometria Analítica** e **Cálculo II**. Os conteúdos apresentados nos *notebooks* constituem uma complementação computacional e numérica aos tópicos estudados nessas disciplinas, permitindo explorar conceitos de álgebra e cálculo por meio de métodos, ferramentas e experimentos computacionais.
 
 Sugere-se que os notebooks sejam utilizados de forma alternada ao longo do semestre: na primeira semana, aborda-se o primeiro tópico relacionado à Álgebra; na segunda, o primeiro tópico relacionado ao Cálculo; na terceira, o segundo tópico de Álgebra; na quarta, o segundo tópico de Cálculo; e assim sucessivamente.
@@ -8,10 +10,10 @@ Sugere-se que os notebooks sejam utilizados de forma alternada ao longo do semes
 Essa organização busca acompanhar, de forma articulada, o desenvolvimento das disciplinas teóricas, proporcionando ao estudante uma perspectiva computacional dos conceitos de álgebra e cálculo estudados ao longo do semestre.
 
 
-## Objetivos da disciplina UFSM00041:
+## Objetivos
 Analisar, compreender e desenvolver modelos matemáticos e computacionais para estudar o comportamento de sistemas, componentes e processos. Empregar ferramentas computacionais e métodos numéricos para estudar operações matriciais, sistemas lineares, funções de múltiplas variáveis e cálculo vetorial, com exemplos de modelos conhecidos ou dados experimentais.
 
-## Tópicos:
+## Tópicos
 
 ### Álgebra Linear e Geometria Analítica
 

@@ -1,30 +1,49 @@
 # MatComp_II
-Material didático para a disciplina de Matemática Computacional II - UFSM00041
+Material didático para a disciplina de Matemática Computacional II - UFSM00041.
 
-## Objetivos da disciplina:
+Este material foi desenvolvido para ser utilizado paralelamente às disciplinas de **Álgebra Linear e Geometria Analítica** e **Cálculo II**. Os conteúdos apresentados nos *notebooks* constituem uma complementação computacional e numérica aos tópicos estudados nessas disciplinas, permitindo explorar conceitos de álgebra e cálculo por meio de métodos, ferramentas e experimentos computacionais.
+
+Sugere-se que os notebooks sejam utilizados de forma alternada ao longo do semestre: na primeira semana, aborda-se o primeiro tópico relacionado à Álgebra; na segunda, o primeiro tópico relacionado ao Cálculo; na terceira, o segundo tópico de Álgebra; na quarta, o segundo tópico de Cálculo; e assim sucessivamente.
+
+Essa organização busca acompanhar, de forma articulada, o desenvolvimento das disciplinas teóricas, proporcionando ao estudante uma perspectiva computacional dos conceitos de álgebra e cálculo estudados ao longo do semestre.
+
+
+## Objetivos da disciplina UFSM00041:
 Analisar, compreender e desenvolver modelos matemáticos e computacionais para estudar o comportamento de sistemas, componentes e processos. Empregar ferramentas computacionais e métodos numéricos para estudar operações matriciais, sistemas lineares, funções de múltiplas variáveis e cálculo vetorial, com exemplos de modelos conhecidos ou dados experimentais.
 
 ## Tópicos:
 
-1 - Vetores e matrizes
+### Álgebra Linear e Geometria Analítica
 
-2 - Matrizes especiais e determinantes
+I.1 - Vetores e Matrizes
 
-3 - Sistemas lineares e escalonamento
+I.2 - SymPy e matrizes
 
-4 - Métodos diretos para sistemas lineares
+I.3 - Matrizes especiais e determinante
 
-5 - Métodos iterativos para sistemas lineares
+I.4 - Sistemas lineares e escalonamento
 
-6 - Funções de múltiplas variáveis
+I.5 - Métodos diretos para sistemas lineares
 
-7 - Máximos e mínimos de funções de duas variáveis
+I.6 - Métodos iterativos
 
-8 - Integrais múltiplas
+I.7 - Autovalores e Autovetores
 
-9 - Funções vetoriais e paramétricas
+### Cálculo II
 
-10 - Cálculo com funções vetoriais
+II.1 - Funções de múltiplas variáveis
+
+II.2 - Limites e derivadas em múltiplas variáveis
+
+II.3 - Aplicações do cálculo multivariado
+
+II.4 - Máximos e Mínimos de funções de duas variáveis
+
+II.5 - Integrais múltiplas
+
+II.6 - Funções Vetoriais e Curvas Espaciais
+
+II.7 - Cálculo com funções vetoriais
 
 ### Referências
 

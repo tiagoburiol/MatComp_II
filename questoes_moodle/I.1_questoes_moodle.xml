@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quiz>
 
-<!-- question: I1_Q1_angulo_entre_vetores -->
+<!-- question: I1_Q1_operacoes_ordens_diferentes -->
   <question type="multichoice">
     <name>
-      <text>I1_Q1_angulo_entre_vetores</text>
+      <text>I1_Q1_operacoes_ordens_diferentes</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p>Considere os vetores <strong>u = (2, -1, 3)</strong> e <strong>v = (1, 4, -2)</strong>. Usando <code>numpy</code> (produto escalar, norma e <code>np.arccos</code>), calcule o ângulo entre <strong>u</strong> e <strong>v</strong>, em graus. Qual é o valor mais próximo do ângulo obtido?</p>]]></text>
+      <text><![CDATA[<p>Considere as matrizes de ordens diferentes</p><p><strong>A</strong> (<math xmlns="http://www.w3.org/1998/Math/MathML"><mn>3</mn><mo>&#215;</mo><mn>2</mn></math>) = [[1,2], [0,3], [-1,4]]<br><strong>B</strong> (<math xmlns="http://www.w3.org/1998/Math/MathML"><mn>2</mn><mo>&#215;</mo><mn>2</mn></math>) = [[2,-1], [1,0]]<br><strong>C</strong> (<math xmlns="http://www.w3.org/1998/Math/MathML"><mn>3</mn><mo>&#215;</mo><mn>1</mn></math>) = [[1], [0], [2]]</p><p>Antes de calcular, verifique se cada operação está definida (dimensões compatíveis). Qual das afirmações abaixo é <strong>verdadeira</strong>?</p>]]></text>
     </questiontext>
     <defaultgrade>1.0000000</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -16,26 +16,26 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <answer fraction="100" format="html">
-      <text><![CDATA[<p>118&deg;</p>]]></text>
+      <text><![CDATA[<p><math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>C</mi><mi>T</mi></msup><mo>(</mo><mi>A</mi><mi>B</mi><mo>)</mo></math> está definida e o resultado é a matriz linha <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><mn>8</mn><mo>,</mo><mn>1</mn><mo>)</mo></math>.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>62&deg;</p>]]></text>
+      <text><![CDATA[<p><math xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><mn>3</mn><mi>A</mi><mo>-</mo><mi>B</mi><mo>)</mo><msup><mi>C</mi><mi>T</mi></msup></math> está definida e o resultado é uma matriz <math xmlns="http://www.w3.org/1998/Math/MathML"><mn>3</mn><mo>&#215;</mo><mn>1</mn></math>.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>90&deg;</p>]]></text>
+      <text><![CDATA[<p><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>A</mi><mi>C</mi><mo>-</mo><mi>B</mi></math> está definida e o resultado é uma matriz <math xmlns="http://www.w3.org/1998/Math/MathML"><mn>2</mn><mo>&#215;</mo><mn>2</mn></math>.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>34&deg;</p>]]></text>
+      <text><![CDATA[<p><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>A</mi><mo>+</mo><msup><mi>B</mi><mi>T</mi></msup></math> está definida e o resultado é uma matriz <math xmlns="http://www.w3.org/1998/Math/MathML"><mn>3</mn><mo>&#215;</mo><mn>2</mn></math>.</p>]]></text>
     </answer>
   </question>
 
-<!-- question: I1_Q2_produto_matrizes_elemento -->
+<!-- question: I1_Q2_norma_produto_matriz_vetor -->
   <question type="multichoice">
     <name>
-      <text>I1_Q2_produto_matrizes_elemento</text>
+      <text>I1_Q2_norma_produto_matriz_vetor</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p>Sejam as matrizes do notebook</p><p><strong>A</strong> = [[1,2,3], [-1,5,0], [7,-2,4]]  e  <strong>B</strong> = [[0,-2,1], [1,0,5], [1,-2,2]]</p><p>Calculando <code>A@B</code> em Python, qual é o valor do elemento <code>(A@B)[1,2]</code> (linha de índice 1, coluna de índice 2)?</p>]]></text>
+      <text><![CDATA[<p>Sejam a matriz <strong>A</strong> = [[4,-2,0], [1,1,0], [0,0,3]] e o vetor <strong>v</strong> = (2, 1, 0). Calcule o produto <code>A@v</code> e, em seguida, a norma do vetor resultante, <code>np.linalg.norm(A@v)</code>. Qual é o valor aproximado (2 casas decimais) obtido?</p>]]></text>
     </questiontext>
     <defaultgrade>1.0000000</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -44,26 +44,26 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <answer fraction="100" format="html">
-      <text><![CDATA[<p>24</p>]]></text>
+      <text><![CDATA[<p>6,71</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>23</p>]]></text>
+      <text><![CDATA[<p>18,00</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>17</p>]]></text>
+      <text><![CDATA[<p>2,24</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>5</p>]]></text>
+      <text><![CDATA[<p>8,00</p>]]></text>
     </answer>
   </question>
 
-<!-- question: I1_Q3_norma_produto_vetorial -->
+<!-- question: I1_Q3_ortogonalidade_produto_vetorial -->
   <question type="multichoice">
     <name>
-      <text>I1_Q3_norma_produto_vetorial</text>
+      <text>I1_Q3_ortogonalidade_produto_vetorial</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p>Dados os vetores <strong>u = (3, -1, 2)</strong> e <strong>v = (-2, 4, 1)</strong>, calcule <code>w = np.cross(u, v)</code> e, em seguida, a norma de <code>w</code> (<code>np.linalg.norm(w)</code>, equivalente à área do paralelogramo definido por u e v). Qual é o valor aproximado obtido, com duas casas decimais?</p>]]></text>
+      <text><![CDATA[<p>Sejam os vetores <strong>u</strong> = (1, 2, -1) e <strong>v</strong> = (3, 0, 2), e seja <strong>w</strong> o produto vetorial de <strong>u</strong> por <strong>v</strong>. Qual das afirmações a seguir sobre <strong>w</strong> é verdadeira?</p>]]></text>
     </questiontext>
     <defaultgrade>1.0000000</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -72,26 +72,26 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <answer fraction="100" format="html">
-      <text><![CDATA[<p>15,17</p>]]></text>
+      <text><![CDATA[<p>O produto escalar de <strong>w</strong> com <strong>u</strong> é igual a <math xmlns="http://www.w3.org/1998/Math/MathML"><mn>0</mn></math>, e o produto escalar de <strong>w</strong> com <strong>v</strong> também é igual a <math xmlns="http://www.w3.org/1998/Math/MathML"><mn>0</mn></math>; ou seja, <strong>w</strong> é ortogonal tanto a <strong>u</strong> quanto a <strong>v</strong>.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>-8,00</p>]]></text>
+      <text><![CDATA[<p>O produto escalar de <strong>w</strong> com <strong>u</strong> é igual a <math xmlns="http://www.w3.org/1998/Math/MathML"><mn>0</mn></math>, mas o produto escalar de <strong>w</strong> com <strong>v</strong> é igual a <math xmlns="http://www.w3.org/1998/Math/MathML"><mn>12</mn></math>.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>26,00</p>]]></text>
+      <text><![CDATA[<p>O ângulo entre <strong>w</strong> e <strong>v</strong> é de <math xmlns="http://www.w3.org/1998/Math/MathML"><mn>30</mn><mo>&#176;</mo></math>.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>4,36</p>]]></text>
+      <text><![CDATA[<p>O produto escalar de <strong>w</strong> com <strong>u</strong> é igual a <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>-</mo><mn>14</mn></math>, e o produto escalar de <strong>w</strong> com <strong>v</strong> é igual a <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>-</mo><mn>12</mn></math>.</p>]]></text>
     </answer>
   </question>
 
-<!-- question: I1_Q4_diagonal_combinacao_linear -->
+<!-- question: I1_Q4_matriz_singular_combinacao_linear -->
   <question type="multichoice">
     <name>
-      <text>I1_Q4_diagonal_combinacao_linear</text>
+      <text>I1_Q4_matriz_singular_combinacao_linear</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p>Usando as matrizes <strong>A</strong> e <strong>B</strong> do notebook (A = [[1,2,3],[-1,5,0],[7,-2,4]] e B = [[0,-2,1],[1,0,5],[1,-2,2]]), calcule a combinação linear <code>2*A - 3*B</code> e, em seguida, extraia sua diagonal com <code>np.diag(...)</code>. Qual é o resultado?</p>]]></text>
+      <text><![CDATA[<p>Considere a matriz</p><p><strong>A</strong> = [[1, 2, 0, -1], [0, 1, 3, 2], [2, -1, 1, 0], [2, 5, 3, 0]]</p><p>Investigue se alguma linha ou coluna de <strong>A</strong> pode ser escrita como combinação linear de outras duas, e o que isso implica para o determinante e a inversa de <strong>A</strong>. Qual das afirmações abaixo é <strong>verdadeira</strong>?</p>]]></text>
     </questiontext>
     <defaultgrade>1.0000000</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -100,29 +100,26 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <answer fraction="100" format="html">
-      <text><![CDATA[<p>[2, 10, 2]</p>]]></text>
+      <text><![CDATA[<p>A linha 4 é igual a <math xmlns="http://www.w3.org/1998/Math/MathML"><mn>2</mn><mo>&#215;</mo><mo>(</mo><mtext>linha 1</mtext><mo>)</mo><mo>+</mo><mtext>linha 2</mtext></math>; por isso, <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>det</mi><mo>(</mo><mi>A</mi><mo>)</mo><mo>=</mo><mn>0</mn></math> e A não possui inversa (a matriz é singular).</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>[-2, -10, -2]</p>]]></text>
+      <text><![CDATA[<p>A coluna 3 é igual à soma das colunas 1 e 2; por isso, <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>det</mi><mo>(</mo><mi>A</mi><mo>)</mo><mo>=</mo><mn>0</mn></math> e A não possui inversa.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>[2, 10, 3]</p>]]></text>
+      <text><![CDATA[<p>A linha 4 é igual à soma das linhas 2 e 3; por isso, <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>det</mi><mo>(</mo><mi>A</mi><mo>)</mo><mo>=</mo><mn>0</mn></math> e A não possui inversa.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>[1, 5, 2]</p>]]></text>
+      <text><![CDATA[<p>Nenhuma linha nem coluna de A é combinação linear de outras; logo, <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>det</mi><mo>(</mo><mi>A</mi><mo>)</mo><mo>&#8800;</mo><mn>0</mn></math> e A é invertível.</p>]]></text>
     </answer>
   </question>
 
-<!-- question: I1_Q5_identidade_produto_misto -->
+<!-- question: I1_Q5_produto_matriz_vetor_parametrico -->
   <question type="multichoice">
     <name>
-      <text>I1_Q5_identidade_produto_misto</text>
+      <text>I1_Q5_produto_matriz_vetor_parametrico</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p>Qual é a saída impressa pelo código a seguir?</p><pre>u = np.array([2, -3, 1])
-v = np.array([1, 2, -2])
-w = np.cross(u, v)
-print(np.dot(u, w))</pre>]]></text>
+      <text><![CDATA[<p>Considere a matriz <math xmlns="http://www.w3.org/1998/Math/MathML"><mn>3</mn><mo>&#215;</mo><mn>3</mn></math> <strong>A</strong> = [[1, 2, -1], [2, -1, 3], [3, 1, 2]] (observe que a terceira linha de <strong>A</strong> é igual à soma das outras duas), o vetor <strong>b</strong> = (0, 5, 5) e o vetor</p><p><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>x</mi><mo>(</mo><mi>t</mi><mo>)</mo><mo>=</mo><mo>(</mo><mn>1</mn><mo>-</mo><mi>t</mi><mo>,</mo><mo>&#160;</mo><mi>t</mi><mo>,</mo><mo>&#160;</mo><mn>1</mn><mo>+</mo><mi>t</mi><mo>)</mo></math></p><p>que depende de um parâmetro real t. Calcule o produto <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>A</mi><mo>&#183;</mo><mi>x</mi><mo>(</mo><mi>t</mi><mo>)</mo></math> para diferentes valores de t. Qual das afirmações abaixo é <strong>verdadeira</strong>?</p>]]></text>
     </questiontext>
     <defaultgrade>1.0000000</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -131,16 +128,16 @@ print(np.dot(u, w))</pre>]]></text>
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <answer fraction="100" format="html">
-      <text><![CDATA[<p>0</p>]]></text>
+      <text><![CDATA[<p>Para <strong>qualquer</strong> valor real de t — inclusive <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>t</mi><mo>=</mo><mn>0</mn></math>, <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>t</mi><mo>=</mo><mn>3</mn></math> e <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>t</mi><mo>=</mo><mo>-</mo><mn>1</mn></math> — o produto <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>A</mi><mo>&#183;</mo><mi>x</mi><mo>(</mo><mi>t</mi><mo>)</mo></math> é igual a <strong>b</strong>.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>-6</p>]]></text>
+      <text><![CDATA[<p>Para <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>t</mi><mo>=</mo><mn>0</mn></math>, <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>A</mi><mo>&#183;</mo><mi>x</mi><mo>(</mo><mi>t</mi><mo>)</mo></math> é igual a <strong>b</strong>, mas para <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>t</mi><mo>=</mo><mn>3</mn></math> o produto é igual a (3, 8, 2).</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>9</p>]]></text>
+      <text><![CDATA[<p><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>A</mi><mo>&#183;</mo><mi>x</mi><mo>(</mo><mi>t</mi><mo>)</mo></math> é igual a <strong>b</strong> apenas quando <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>t</mi><mo>=</mo><mn>0</mn></math>; para qualquer outro valor de t, o produto é diferente de <strong>b</strong>.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>16</p>]]></text>
+      <text><![CDATA[<p>Não existe nenhum valor de t para o qual <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>A</mi><mo>&#183;</mo><mi>x</mi><mo>(</mo><mi>t</mi><mo>)</mo></math> seja igual a <strong>b</strong>.</p>]]></text>
     </answer>
   </question>
 

@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quiz>
 
-<!-- question: I2_Q1_matrix_construtor_funcao -->
+<!-- question: I2_Q1_multiplicacao_matrizes -->
   <question type="multichoice">
     <name>
-      <text>I2_Q1_matrix_construtor_funcao</text>
+      <text>I2_Q1_multiplicacao_matrizes</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p>No SymPy, usando o construtor por termo geral do Exemplo 6 do notebook,</p><pre>aij = lambda i, j: 10*i + j
-M = sp.Matrix(3, 4, aij)</pre><p>qual é o valor do elemento <code>M[2, 3]</code> (linha de índice 2, coluna de índice 3)?</p>]]></text>
+      <text><![CDATA[<p>Sejam as matrizes, representadas como <code>sp.Matrix</code>,</p><p><strong>A</strong> = [[1,2],[0,-1]] &nbsp; <strong>B</strong> = [[3,1],[2,0]] &nbsp; <strong>C</strong> = [[0,-2],[1,1]]</p><p>Calcule as expressões abaixo e compare os resultados obtidos. Qual das afirmações a seguir é <strong>verdadeira</strong>?</p>]]></text>
     </questiontext>
     <defaultgrade>1.0000000</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -17,26 +16,26 @@ M = sp.Matrix(3, 4, aij)</pre><p>qual é o valor do elemento <code>M[2, 3]</code
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <answer fraction="100" format="html">
-      <text><![CDATA[<p>23</p>]]></text>
+      <text><![CDATA[<p><math xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><mi>A</mi><mi>B</mi><mo>)</mo><mi>C</mi><mo>=</mo><mi>A</mi><mo>(</mo><mi>B</mi><mi>C</mi><mo>)</mo></math>.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>32</p>]]></text>
+      <text><![CDATA[<p><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>A</mi><mi>B</mi><mo>=</mo><mi>B</mi><mi>A</mi></math>.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>20</p>]]></text>
+      <text><![CDATA[<p><math xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><mi>A</mi><mi>B</mi><mo>)</mo><mi>C</mi><mo>=</mo><mi>C</mi><mo>(</mo><mi>A</mi><mi>B</mi><mo>)</mo></math>.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>24</p>]]></text>
+      <text><![CDATA[<p><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>A</mi><mi>C</mi><mo>=</mo><mi>C</mi><mi>A</mi></math>.</p>]]></text>
     </answer>
   </question>
 
-<!-- question: I2_Q2_norma_simbolica_exata -->
+<!-- question: I2_Q2_transposta_produto_soma -->
   <question type="multichoice">
     <name>
-      <text>I2_Q2_norma_simbolica_exata</text>
+      <text>I2_Q2_transposta_produto_soma</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p>Considere o vetor <strong>u = (2, -1, 3)</strong>, representado como <code>sp.Matrix([2, -1, 3])</code>. Qual é o valor retornado por <code>u.norm()</code> no SymPy, na forma exata (simbólica, sem aproximação decimal)?</p>]]></text>
+      <text><![CDATA[<p>Usando as mesmas matrizes, representadas como <code>sp.Matrix</code>,</p><p><strong>A</strong> = [[1,2],[0,-1]] &nbsp; <strong>B</strong> = [[3,1],[2,0]]</p><p>calcule as transpostas envolvidas em cada expressão abaixo e compare os resultados obtidos. Qual das afirmações a seguir é <strong>verdadeira</strong>?</p>]]></text>
     </questiontext>
     <defaultgrade>1.0000000</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -45,26 +44,26 @@ M = sp.Matrix(3, 4, aij)</pre><p>qual é o valor do elemento <code>M[2, 3]</code
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <answer fraction="100" format="html">
-      <text><![CDATA[<p>&radic;14</p>]]></text>
+      <text><![CDATA[<p><math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mrow><mo>(</mo><mi>A</mi><mi>B</mi><mo>)</mo></mrow><mi>T</mi></msup><mo>=</mo><msup><mi>B</mi><mi>T</mi></msup><msup><mi>A</mi><mi>T</mi></msup></math>.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>&radic;12</p>]]></text>
+      <text><![CDATA[<p><math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mrow><mo>(</mo><mi>A</mi><mi>B</mi><mo>)</mo></mrow><mi>T</mi></msup><mo>=</mo><msup><mi>A</mi><mi>T</mi></msup><msup><mi>B</mi><mi>T</mi></msup></math>.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>&radic;6</p>]]></text>
+      <text><![CDATA[<p><math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mrow><mo>(</mo><mi>A</mi><mo>+</mo><mi>B</mi><mo>)</mo></mrow><mi>T</mi></msup><mo>=</mo><msup><mi>B</mi><mi>T</mi></msup><mo>-</mo><msup><mi>A</mi><mi>T</mi></msup></math>.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>14</p>]]></text>
+      <text><![CDATA[<p><math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>A</mi><mi>T</mi></msup><mo>+</mo><msup><mi>B</mi><mi>T</mi></msup><mo>=</mo><msup><mrow><mo>(</mo><mi>A</mi><mo>-</mo><mi>B</mi><mo>)</mo></mrow><mi>T</mi></msup></math>.</p>]]></text>
     </answer>
   </question>
 
-<!-- question: I2_Q3_inversa_simbolica_entrada -->
+<!-- question: I2_Q3_determinante_produto_soma -->
   <question type="multichoice">
     <name>
-      <text>I2_Q3_inversa_simbolica_entrada</text>
+      <text>I2_Q3_determinante_produto_soma</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p>Seja a matriz tridiagonal <strong>M</strong> = [[2,1,0], [1,3,1], [0,1,2]], representada como <code>sp.Matrix</code>. Calculando <code>M.inv()</code>, qual é o valor exato da entrada <code>M.inv()[1, 1]</code>?</p>]]></text>
+      <text><![CDATA[<p>Sejam as matrizes, representadas como <code>sp.Matrix</code>,</p><p><strong>M</strong> = [[1,0,2],[3,1,-1],[0,2,1]] &nbsp; <strong>N</strong> = [[2,-1,0],[1,0,3],[1,1,1]]</p><p>Calcule <code>.det()</code> das matrizes e das combinações envolvidas em cada expressão abaixo, e compare os valores obtidos. Qual das afirmações a seguir é <strong>verdadeira</strong>?</p>]]></text>
     </questiontext>
     <defaultgrade>1.0000000</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -73,26 +72,26 @@ M = sp.Matrix(3, 4, aij)</pre><p>qual é o valor do elemento <code>M[2, 3]</code
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <answer fraction="100" format="html">
-      <text><![CDATA[<p>1/2</p>]]></text>
+      <text><![CDATA[<p><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>det</mi><mo>(</mo><mi>M</mi><mi>N</mi><mo>)</mo><mo>=</mo><mi>det</mi><mo>(</mo><mi>M</mi><mo>)</mo><mo>&#183;</mo><mi>det</mi><mo>(</mo><mi>N</mi><mo>)</mo></math>.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>5/8</p>]]></text>
+      <text><![CDATA[<p><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>det</mi><mo>(</mo><mi>M</mi><mo>+</mo><mi>N</mi><mo>)</mo><mo>=</mo><mi>det</mi><mo>(</mo><mi>M</mi><mo>)</mo><mo>+</mo><mi>det</mi><mo>(</mo><mi>N</mi><mo>)</mo></math>.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>-1/4</p>]]></text>
+      <text><![CDATA[<p><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>det</mi><mo>(</mo><mn>2</mn><mi>M</mi><mo>)</mo><mo>=</mo><mn>2</mn><mo>&#183;</mo><mi>det</mi><mo>(</mo><mi>M</mi><mo>)</mo></math>.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>1/8</p>]]></text>
+      <text><![CDATA[<p><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>det</mi><mo>(</mo><msup><mi>M</mi><mi>T</mi></msup><mo>)</mo><mo>=</mo><mo>-</mo><mi>det</mi><mo>(</mo><mi>M</mi><mo>)</mo></math>.</p>]]></text>
     </answer>
   </question>
 
-<!-- question: I2_Q4_nao_comutatividade_entrada -->
+<!-- question: I2_Q4_produto_escalar_linearidade -->
   <question type="multichoice">
     <name>
-      <text>I2_Q4_nao_comutatividade_entrada</text>
+      <text>I2_Q4_produto_escalar_linearidade</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p>Sejam as matrizes <strong>A</strong> = [[1,2],[0,3]] e <strong>B</strong> = [[2,0],[1,-1]], criadas como <code>sp.Matrix</code>. Calculando <code>C = A*B - B*A</code>, qual é o valor da entrada <code>C[0, 1]</code>, que confirma que <code>A*B &ne; B*A</code>?</p>]]></text>
+      <text><![CDATA[<p>Sejam os vetores, representados como <code>sp.Matrix</code>,</p><p><strong>u</strong> = (1,-2,3) &nbsp; <strong>v</strong> = (2,0,-1) &nbsp; <strong>w</strong> = (-1,3,2)</p><p>Calcule os produtos escalares (<code>.dot()</code>) envolvidos em cada expressão abaixo. Qual das afirmações a seguir é <strong>verdadeira</strong>?</p>]]></text>
     </questiontext>
     <defaultgrade>1.0000000</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -101,26 +100,26 @@ M = sp.Matrix(3, 4, aij)</pre><p>qual é o valor do elemento <code>M[2, 3]</code
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <answer fraction="100" format="html">
-      <text><![CDATA[<p>-6</p>]]></text>
+      <text><![CDATA[<p><math xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><mn>2</mn><mi>u</mi><mo>-</mo><mn>3</mn><mi>v</mi><mo>)</mo><mo>&#183;</mo><mi>w</mi><mo>=</mo><mn>2</mn><mo>(</mo><mi>u</mi><mo>&#183;</mo><mi>w</mi><mo>)</mo><mo>-</mo><mn>3</mn><mo>(</mo><mi>v</mi><mo>&#183;</mo><mi>w</mi><mo>)</mo></math>.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>6</p>]]></text>
+      <text><![CDATA[<p><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>u</mi><mo>&#183;</mo><mi>v</mi><mo>&#8800;</mo><mi>v</mi><mo>&#183;</mo><mi>u</mi></math>.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>-2</p>]]></text>
+      <text><![CDATA[<p><math xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><mi>u</mi><mo>+</mo><mi>v</mi><mo>)</mo><mo>&#183;</mo><mi>w</mi><mo>=</mo><mi>u</mi><mo>&#183;</mo><mi>w</mi><mo>-</mo><mi>v</mi><mo>&#183;</mo><mi>w</mi></math>.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>2</p>]]></text>
+      <text><![CDATA[<p><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>u</mi><mo>&#183;</mo><mo>(</mo><mi>v</mi><mo>+</mo><mi>w</mi><mo>)</mo><mo>=</mo><mn>5</mn></math>.</p>]]></text>
     </answer>
   </question>
 
-<!-- question: I2_Q5_diagonal_combinacao_linear_sympy -->
+<!-- question: I2_Q5_matriz_parametrica_sem_inversa -->
   <question type="multichoice">
     <name>
-      <text>I2_Q5_diagonal_combinacao_linear_sympy</text>
+      <text>I2_Q5_matriz_parametrica_sem_inversa</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p>Sejam <strong>M</strong> = [[4,-2],[1,3]] e <strong>B</strong> = [[0,5],[-1,2]], representadas como <code>sp.Matrix</code>. Calculando a combinação linear <code>2*M - 3*B</code> e, em seguida, <code>.diagonal()</code> desse resultado, qual é a matriz linha obtida?</p>]]></text>
+      <text><![CDATA[<p>Considere a matriz, representada como <code>sp.Matrix</code>, com um símbolo <code>t</code>,</p><p><strong>M</strong>(t) = [[1, 2, t], [0, t, 1], [2, -1, 3]]</p><p>Calcule <code>M(t).det()</code> em função de t e determine para quais valores de t essa expressão se anula. Qual das afirmações a seguir é <strong>verdadeira</strong>?</p>]]></text>
     </questiontext>
     <defaultgrade>1.0000000</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -129,16 +128,16 @@ M = sp.Matrix(3, 4, aij)</pre><p>qual é o valor do elemento <code>M[2, 3]</code
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <answer fraction="100" format="html">
-      <text><![CDATA[<p>[8, 0]</p>]]></text>
+      <text><![CDATA[<p><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>t</mi><mo>=</mo><mo>-</mo><mn>1</mn></math> e <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>t</mi><mo>=</mo><mfrac><mn>5</mn><mn>2</mn></mfrac></math> são os únicos valores para os quais <strong>M</strong>(t) não possui inversa.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>[-8, 0]</p>]]></text>
+      <text><![CDATA[<p><strong>M</strong>(t) não possui inversa apenas para <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>t</mi><mo>=</mo><mo>-</mo><mn>1</mn></math>.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>[8, -19]</p>]]></text>
+      <text><![CDATA[<p><strong>M</strong>(t) possui inversa para todo valor real de t.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>[5, 0]</p>]]></text>
+      <text><![CDATA[<p><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>t</mi><mo>=</mo><mn>1</mn></math> e <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>t</mi><mo>=</mo><mo>-</mo><mfrac><mn>5</mn><mn>2</mn></mfrac></math> são os valores para os quais <strong>M</strong>(t) não possui inversa.</p>]]></text>
     </answer>
   </question>
 

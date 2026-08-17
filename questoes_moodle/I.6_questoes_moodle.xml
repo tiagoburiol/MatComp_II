@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quiz>
 
-<!-- question: I6_Q1_jacobi_segunda_iteracao -->
+<!-- question: I6_Q1_erro_diminui_dominante -->
   <question type="multichoice">
     <name>
-      <text>I6_Q1_jacobi_segunda_iteracao</text>
+      <text>I6_Q1_erro_diminui_dominante</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p>Considere o sistema linear</p><p>8x&#8321; + x&#8322; + 2x&#8323; = 15<br>x&#8321; + 6x&#8322; + x&#8323; = 9<br>x&#8321; + 2x&#8322; + 7x&#8323; = 17</p><p>Aplicando o método de Jacobi-Richardson a partir de x<sup>(0)</sup> = (0, 0, 0), qual é o valor aproximado (4 casas decimais) de x<sub>1</sub><sup>(2)</sup>, isto é, a primeira componente após a <strong>segunda</strong> iteração?</p>]]></text>
+      <text><![CDATA[<p>Considere o sistema</p><p><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>8</mn><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><msub><mi>x</mi><mn>2</mn></msub><mo>+</mo><msub><mi>x</mi><mn>3</mn></msub><mo>=</mo><mn>20</mn></math><br><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><mn>6</mn><msub><mi>x</mi><mn>2</mn></msub><mo>+</mo><mn>2</mn><msub><mi>x</mi><mn>3</mn></msub><mo>=</mo><mn>18</mn></math><br><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><msub><mi>x</mi><mn>2</mn></msub><mo>+</mo><mn>7</mn><msub><mi>x</mi><mn>3</mn></msub><mo>=</mo><mn>20</mn></math></p><p>Calcule a solução exata (por exemplo, com <code>np.linalg.solve</code>) e também as iteradas <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>x</mi><mrow><mo>(</mo><mn>0</mn><mo>)</mo></mrow></msup><mo>,</mo><msup><mi>x</mi><mrow><mo>(</mo><mn>1</mn><mo>)</mo></mrow></msup><mo>,</mo><mo>...</mo><mo>,</mo><msup><mi>x</mi><mrow><mo>(</mo><mn>5</mn><mo>)</mo></mrow></msup></math>, obtidas a partir de <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>x</mi><mrow><mo>(</mo><mn>0</mn><mo>)</mo></mrow></msup><mo>=</mo><mo>(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo>)</mo></math>, pelo processo iterativo em que cada componente é isolada e atualizada usando os valores mais recentes das demais. Compare a distância entre cada iterada e a solução exata. Qual das afirmações abaixo é <strong>verdadeira</strong>?</p>]]></text>
     </questiontext>
     <defaultgrade>1.0000000</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -16,26 +16,26 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <answer fraction="100" format="html">
-      <text><![CDATA[<p>1,0804</p>]]></text>
+      <text><![CDATA[<p>A distância entre a iterada e a solução exata diminui a cada iteração.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>1,8750</p>]]></text>
+      <text><![CDATA[<p>A distância entre a iterada e a solução exata permanece aproximadamente constante.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>0,7827</p>]]></text>
+      <text><![CDATA[<p>A distância entre a iterada e a solução exata aumenta a cada iteração.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>1,7321</p>]]></text>
+      <text><![CDATA[<p>Já na primeira iteração, a distância até a solução exata é exatamente zero.</p>]]></text>
     </answer>
   </question>
 
-<!-- question: I6_Q2_matriz_iteracao_entrada -->
+<!-- question: I6_Q2_divergencia_nao_dominante -->
   <question type="multichoice">
     <name>
-      <text>I6_Q2_matriz_iteracao_entrada</text>
+      <text>I6_Q2_divergencia_nao_dominante</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p>Para o sistema do notebook (matriz de iteração de Jacobi, H = I - A/diag(A)), com</p><p>A = [[8, 1, 2], [1, 6, 1], [1, 2, 7]]</p><p>qual é o valor da entrada <code>H[0, 2]</code>?</p>]]></text>
+      <text><![CDATA[<p>Considere agora o sistema</p><p><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><mn>2</mn><msub><mi>x</mi><mn>2</mn></msub><mo>+</mo><mn>3</mn><msub><mi>x</mi><mn>3</mn></msub><mo>=</mo><mn>6</mn></math><br><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>2</mn><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><msub><mi>x</mi><mn>2</mn></msub><mo>+</mo><msub><mi>x</mi><mn>3</mn></msub><mo>=</mo><mn>4</mn></math><br><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>3</mn><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><msub><mi>x</mi><mn>2</mn></msub><mo>+</mo><msub><mi>x</mi><mn>3</mn></msub><mo>=</mo><mn>5</mn></math></p><p>Aplique o mesmo processo iterativo do problema anterior, partindo de <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>x</mi><mrow><mo>(</mo><mn>0</mn><mo>)</mo></mrow></msup><mo>=</mo><mo>(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo>)</mo></math>, e observe os valores obtidos ao longo de 6 a 8 iterações. Qual das afirmações abaixo é <strong>verdadeira</strong>?</p>]]></text>
     </questiontext>
     <defaultgrade>1.0000000</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -44,26 +44,26 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <answer fraction="100" format="html">
-      <text><![CDATA[<p>-0,25</p>]]></text>
+      <text><![CDATA[<p>Os valores das iteradas crescem em módulo a cada iteração, afastando-se cada vez mais.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>-0,125</p>]]></text>
+      <text><![CDATA[<p>As iteradas se aproximam rapidamente de uma solução estável.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>0,25</p>]]></text>
+      <text><![CDATA[<p>As iteradas permanecem limitadas, oscilando sempre em torno do mesmo valor.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>-0,1667</p>]]></text>
+      <text><![CDATA[<p>As iteradas convergem para a solução exata do sistema em poucas iterações.</p>]]></text>
     </answer>
   </question>
 
-<!-- question: I6_Q3_norma_infinito_convergencia -->
+<!-- question: I6_Q3_mesmo_ponto_fixo -->
   <question type="multichoice">
     <name>
-      <text>I6_Q3_norma_infinito_convergencia</text>
+      <text>I6_Q3_mesmo_ponto_fixo</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p>Para a matriz de iteração H obtida a partir de A = [[8, 1, 2], [1, 6, 1], [1, 2, 7]], qual é o valor da norma infinito (norma linha) de H, usada no critério geral de convergência do notebook?</p>]]></text>
+      <text><![CDATA[<p>Para o sistema do primeiro problema (<math xmlns="http://www.w3.org/1998/Math/MathML"><mn>8</mn><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><msub><mi>x</mi><mn>2</mn></msub><mo>+</mo><msub><mi>x</mi><mn>3</mn></msub><mo>=</mo><mn>20</mn></math>, <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><mn>6</mn><msub><mi>x</mi><mn>2</mn></msub><mo>+</mo><mn>2</mn><msub><mi>x</mi><mn>3</mn></msub><mo>=</mo><mn>18</mn></math>, <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><msub><mi>x</mi><mn>2</mn></msub><mo>+</mo><mn>7</mn><msub><mi>x</mi><mn>3</mn></msub><mo>=</mo><mn>20</mn></math>), calcule 15 iteradas usando dois processos diferentes a partir de <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>x</mi><mrow><mo>(</mo><mn>0</mn><mo>)</mo></mrow></msup><mo>=</mo><mo>(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo>)</mo></math>: (i) atualizando cada componente com os valores da iteração <strong>anterior</strong>; (ii) atualizando cada componente já usando os valores <strong>mais recentes</strong> (assim que calculados) das demais componentes. Compare os resultados finais dos dois processos entre si e com a solução exata. Qual das afirmações abaixo é <strong>verdadeira</strong>?</p>]]></text>
     </questiontext>
     <defaultgrade>1.0000000</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -72,26 +72,26 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <answer fraction="100" format="html">
-      <text><![CDATA[<p>0,4286</p>]]></text>
+      <text><![CDATA[<p>Os dois processos produzem valores muito próximos entre si e muito próximos da solução exata.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>0,3750</p>]]></text>
+      <text><![CDATA[<p>Os dois processos convergem para valores diferentes, cada um distante da solução exata.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>0,1667</p>]]></text>
+      <text><![CDATA[<p>Apenas o processo (ii) se aproxima da solução exata; o processo (i) se afasta dela.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>0,6667</p>]]></text>
+      <text><![CDATA[<p>Nenhum dos dois processos se aproxima da solução exata nesse sistema.</p>]]></text>
     </answer>
   </question>
 
-<!-- question: I6_Q4_gauss_seidel_segunda_iteracao -->
+<!-- question: I6_Q4_velocidade_convergencia -->
   <question type="multichoice">
     <name>
-      <text>I6_Q4_gauss_seidel_segunda_iteracao</text>
+      <text>I6_Q4_velocidade_convergencia</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p>Para o mesmo sistema</p><p>8x&#8321; + x&#8322; + 2x&#8323; = 15<br>x&#8321; + 6x&#8322; + x&#8323; = 9<br>x&#8321; + 2x&#8322; + 7x&#8323; = 17</p><p>aplicando o método de Gauss-Seidel a partir de x<sup>(0)</sup> = (0, 0, 0), qual é o valor aproximado (4 casas decimais) de x<sub>3</sub><sup>(2)</sup> após a segunda iteração?</p>]]></text>
+      <text><![CDATA[<p>Ainda para o mesmo sistema, compare a distância até a solução exata obtida <strong>após 5 iterações</strong>, para os dois processos descritos no problema anterior. Qual das afirmações abaixo é <strong>verdadeira</strong>?</p>]]></text>
     </questiontext>
     <defaultgrade>1.0000000</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -100,26 +100,26 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <answer fraction="100" format="html">
-      <text><![CDATA[<p>1,9657</p>]]></text>
+      <text><![CDATA[<p>Depois de 5 iterações, a distância até a solução exata é centenas de vezes menor no processo (ii) do que no processo (i).</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>1,8214</p>]]></text>
+      <text><![CDATA[<p>Depois de 5 iterações, a distância até a solução exata é menor no processo (i) do que no processo (ii).</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>1,2712</p>]]></text>
+      <text><![CDATA[<p>Depois de 5 iterações, as distâncias até a solução exata são praticamente idênticas nos dois processos.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>0,9846</p>]]></text>
+      <text><![CDATA[<p>Depois de 5 iterações, a distância até a solução exata é cerca de duas vezes menor no processo (ii) do que no processo (i).</p>]]></text>
     </answer>
   </question>
 
-<!-- question: I6_Q5_criterio_sassenfeld_beta -->
+<!-- question: I6_Q5_soma_linha_matriz_iteracao -->
   <question type="multichoice">
     <name>
-      <text>I6_Q5_criterio_sassenfeld_beta</text>
+      <text>I6_Q5_soma_linha_matriz_iteracao</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p>Aplicando o critério de Sassenfeld à matriz H obtida a partir de A = [[8, 1, 2], [1, 6, 1], [1, 2, 7]], qual é o valor de &beta; = max{&beta;<sub>i</sub>} (3 casas decimais)?</p>]]></text>
+      <text><![CDATA[<p>Para cada um dos dois sistemas usados nos problemas anteriores (o de coeficientes A1, que converge, e o de coeficientes A2, que diverge), construa a matriz <math xmlns="http://www.w3.org/1998/Math/MathML"><mi mathvariant="bold">H</mi><mo>=</mo><mi mathvariant="bold">I</mi><mo>-</mo><mi mathvariant="bold">A</mi><mo>/</mo><mi>diag</mi><mo>(</mo><mi mathvariant="bold">A</mi><mo>)</mo></math> (dividindo cada linha de A pelo seu elemento na diagonal principal, com sinal trocado fora da diagonal) e calcule, para cada linha de <strong>H</strong>, a soma dos valores absolutos de seus elementos. Qual das afirmações abaixo é <strong>verdadeira</strong>?</p>]]></text>
     </questiontext>
     <defaultgrade>1.0000000</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -128,16 +128,16 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <answer fraction="100" format="html">
-      <text><![CDATA[<p>0,375</p>]]></text>
+      <text><![CDATA[<p>Para o sistema A1 (que converge), a maior dessas somas é 0,5; para o sistema A2 (que diverge), a maior dessas somas é 5,0.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>0,229</p>]]></text>
+      <text><![CDATA[<p>Para os dois sistemas, a maior dessas somas é menor que 1.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>0,119</p>]]></text>
+      <text><![CDATA[<p>Para os dois sistemas, a maior dessas somas é maior que 1.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>0,429</p>]]></text>
+      <text><![CDATA[<p>Para o sistema A1 a maior soma vale 5,0, e para o sistema A2 vale 0,5.</p>]]></text>
     </answer>
   </question>
 

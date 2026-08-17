@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quiz>
 
-<!-- question: I7_Q1_maior_autovalor -->
+<!-- question: I7_Q1_soma_autovalores_diagonal -->
   <question type="multichoice">
     <name>
-      <text>I7_Q1_maior_autovalor</text>
+      <text>I7_Q1_soma_autovalores_diagonal</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p>Seja a matriz A = [[2, 1, 1], [1, 2, 1], [1, 1, 2]]. Calculando os autovalores de A (por exemplo, com <code>A.eigenvals()</code> do SymPy ou <code>np.linalg.eigvals</code>), qual é o <strong>maior</strong> autovalor de A?</p>]]></text>
+      <text><![CDATA[<p>Seja <strong>M</strong> = [[4,1,0], [2,3,1], [0,1,5]]. Calcule os autovalores de <strong>M</strong> e a sua soma. Compare com as quantidades abaixo, obtidas diretamente dos elementos de <strong>M</strong>. Qual das afirmações é <strong>verdadeira</strong>?</p>]]></text>
     </questiontext>
     <defaultgrade>1.0000000</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -16,26 +16,26 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <answer fraction="100" format="html">
-      <text><![CDATA[<p>4</p>]]></text>
+      <text><![CDATA[<p>A soma dos autovalores de <strong>M</strong> é igual à soma dos elementos da diagonal principal de <strong>M</strong>.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>1</p>]]></text>
+      <text><![CDATA[<p>A soma dos autovalores de <strong>M</strong> é igual a <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>det</mi><mo>(</mo><mi mathvariant="bold">M</mi><mo>)</mo></math>.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>2</p>]]></text>
+      <text><![CDATA[<p>A soma dos autovalores de <strong>M</strong> é igual à soma de todos os elementos de <strong>M</strong>, incluindo os que estão fora da diagonal.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>3</p>]]></text>
+      <text><![CDATA[<p>A soma dos autovalores de <strong>M</strong> é igual ao produto dos elementos da diagonal principal de <strong>M</strong>.</p>]]></text>
     </answer>
   </question>
 
-<!-- question: I7_Q2_autovetor_maior_autovalor -->
+<!-- question: I7_Q2_produto_autovalores_determinante -->
   <question type="multichoice">
     <name>
-      <text>I7_Q2_autovetor_maior_autovalor</text>
+      <text>I7_Q2_produto_autovalores_determinante</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p>Seja a matriz A = [[5, 4], [1, 2]]. O maior autovalor de A é &lambda; = 6. Resolvendo o sistema (A - 6I)v = 0, qual é o autovetor associado a &lambda; = 6, na forma mais simples com a segunda componente igual a 1?</p>]]></text>
+      <text><![CDATA[<p>Seja <strong>N</strong> = [[3,-1,2], [0,2,4], [1,0,-1]]. Calcule os autovalores de <strong>N</strong> (alguns podem ser complexos) e o seu produto. Compare com as quantidades abaixo, obtidas diretamente dos elementos de <strong>N</strong>. Qual das afirmações é <strong>verdadeira</strong>?</p>]]></text>
     </questiontext>
     <defaultgrade>1.0000000</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -44,26 +44,26 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <answer fraction="100" format="html">
-      <text><![CDATA[<p>(4, 1)</p>]]></text>
+      <text><![CDATA[<p>O produto dos autovalores de <strong>N</strong> é igual a <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>det</mi><mo>(</mo><mi mathvariant="bold">N</mi><mo>)</mo></math>.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>(-1, 1)</p>]]></text>
+      <text><![CDATA[<p>O produto dos autovalores de <strong>N</strong> é igual à soma dos elementos da diagonal principal de <strong>N</strong>.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>(1, 4)</p>]]></text>
+      <text><![CDATA[<p>O produto dos autovalores de <strong>N</strong> é igual à soma dos quadrados dos elementos da diagonal principal de <strong>N</strong>.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>(1, -1)</p>]]></text>
+      <text><![CDATA[<p>O produto dos autovalores de <strong>N</strong> nunca pode ser um número negativo.</p>]]></text>
     </answer>
   </question>
 
-<!-- question: I7_Q3_multiplicidade_geometrica -->
+<!-- question: I7_Q3_ortogonalidade_autovetores_simetrica -->
   <question type="multichoice">
     <name>
-      <text>I7_Q3_multiplicidade_geometrica</text>
+      <text>I7_Q3_ortogonalidade_autovetores_simetrica</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p>Seja a matriz B = [[3, 1], [0, 3]]. O polin&ocirc;mio caracter&iacute;stico de B tem &lambda; = 3 como raiz dupla (multiplicidade alg&eacute;brica 2). Usando <code>B.eigenvects()</code> do SymPy para resolver (B - 3I)v = 0, qual &eacute; a <strong>multiplicidade geom&eacute;trica</strong> de &lambda; = 3, ou seja, quantos autovetores linearmente independentes existem para esse autovalor?</p>]]></text>
+      <text><![CDATA[<p>Sejam as matrizes</p><p><strong>S</strong> = [[4,1,2], [1,3,0], [2,0,5]] &nbsp; (<math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi mathvariant="bold">S</mi><mi>T</mi></msup><mo>=</mo><mi mathvariant="bold">S</mi></math>) &nbsp;&nbsp; <strong>N</strong> = [[4,1,2], [0,3,0], [1,5,5]] &nbsp; (<math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi mathvariant="bold">N</mi><mi>T</mi></msup><mo>&#8800;</mo><mi mathvariant="bold">N</mi></math>)</p><p>Calcule os autovetores de <strong>S</strong> e de <strong>N</strong> e, para cada matriz, o produto escalar entre pares de autovetores associados a autovalores distintos. Qual das afirmações é <strong>verdadeira</strong>?</p>]]></text>
     </questiontext>
     <defaultgrade>1.0000000</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -72,26 +72,26 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <answer fraction="100" format="html">
-      <text><![CDATA[<p>1</p>]]></text>
+      <text><![CDATA[<p>Para <strong>S</strong>, esses produtos escalares são (aproximadamente) zero; para <strong>N</strong>, isso não ocorre em geral.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>2</p>]]></text>
+      <text><![CDATA[<p>Para <strong>S</strong> e para <strong>N</strong>, esses produtos escalares são sempre zero.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>0</p>]]></text>
+      <text><![CDATA[<p>Para <strong>S</strong> e para <strong>N</strong>, nenhum desses produtos escalares é zero.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>3</p>]]></text>
+      <text><![CDATA[<p>Para <strong>N</strong>, esses produtos escalares são (aproximadamente) zero; para <strong>S</strong>, isso não ocorre em geral.</p>]]></text>
     </answer>
   </question>
 
-<!-- question: I7_Q4_convergencia_via_autovalores -->
+<!-- question: I7_Q4_diagonalizacao_ordem_correspondente -->
   <question type="multichoice">
     <name>
-      <text>I7_Q4_convergencia_via_autovalores</text>
+      <text>I7_Q4_diagonalizacao_ordem_correspondente</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p>No notebook <a href="I.6_metodos_iterativos_para_sistemas_lineares.ipynb">I.6</a>, vimos que um processo iterativo x<sup>(k+1)</sup> = Hx<sup>(k)</sup> + g converge se, e somente se, max{|&lambda;<sub>i</sub>|} &lt; 1, sendo &lambda;<sub>i</sub> os autovalores de H. Para a matriz de itera&ccedil;&atilde;o</p><p>H = [[0, -0.125, -0.25], [-0.1667, 0, -0.1667], [-0.1429, -0.2857, 0]]</p><p>qual &eacute; o valor aproximado (4 casas decimais) de max{|&lambda;<sub>i</sub>|}, calculado com <code>np.linalg.eigvals</code>?</p>]]></text>
+      <text><![CDATA[<p>Seja <strong>A</strong> = [[4,1], [2,3]], com autovalores 5 e 2. Monte <strong>P</strong> com os autovetores de <strong>A</strong> como colunas (na ordem correspondente a 5 e depois 2) e <strong>D</strong> = diag(5, 2), na mesma ordem. Calcule <math xmlns="http://www.w3.org/1998/Math/MathML"><mi mathvariant="bold">P</mi><mo>&#183;</mo><mi mathvariant="bold">D</mi><mo>&#183;</mo><msup><mi mathvariant="bold">P</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></math> e também <math xmlns="http://www.w3.org/1998/Math/MathML"><mi mathvariant="bold">P</mi><mo>&#183;</mo><msup><mi mathvariant="bold">D</mi><mo>&#8242;</mo></msup><mo>&#183;</mo><msup><mi mathvariant="bold">P</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></math>, em que <strong>D'</strong> = diag(2, 5) (ordem trocada, mas <strong>P</strong> mantida igual). Qual das afirmações é <strong>verdadeira</strong>?</p>]]></text>
     </questiontext>
     <defaultgrade>1.0000000</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -100,26 +100,26 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <answer fraction="100" format="html">
-      <text><![CDATA[<p>0,3788</p>]]></text>
+      <text><![CDATA[<p><math xmlns="http://www.w3.org/1998/Math/MathML"><mi mathvariant="bold">P</mi><mo>&#183;</mo><mi mathvariant="bold">D</mi><mo>&#183;</mo><msup><mi mathvariant="bold">P</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></math> reproduz exatamente <strong>A</strong>, mas <math xmlns="http://www.w3.org/1998/Math/MathML"><mi mathvariant="bold">P</mi><mo>&#183;</mo><msup><mi mathvariant="bold">D</mi><mo>&#8242;</mo></msup><mo>&#183;</mo><msup><mi mathvariant="bold">P</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></math> (com a ordem trocada) não reproduz <strong>A</strong>.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>1,0000</p>]]></text>
+      <text><![CDATA[<p>Tanto <math xmlns="http://www.w3.org/1998/Math/MathML"><mi mathvariant="bold">P</mi><mo>&#183;</mo><mi mathvariant="bold">D</mi><mo>&#183;</mo><msup><mi mathvariant="bold">P</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></math> quanto <math xmlns="http://www.w3.org/1998/Math/MathML"><mi mathvariant="bold">P</mi><mo>&#183;</mo><msup><mi mathvariant="bold">D</mi><mo>&#8242;</mo></msup><mo>&#183;</mo><msup><mi mathvariant="bold">P</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></math> reproduzem <strong>A</strong>, independentemente da ordem.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>0,1894</p>]]></text>
+      <text><![CDATA[<p>Nenhum dos dois produtos reproduz <strong>A</strong>.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>0,6667</p>]]></text>
+      <text><![CDATA[<p><math xmlns="http://www.w3.org/1998/Math/MathML"><mi mathvariant="bold">P</mi><mo>&#183;</mo><mi mathvariant="bold">D</mi><mo>&#183;</mo><msup><mi mathvariant="bold">P</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></math> reproduz <strong>A</strong> apenas quando <strong>D</strong> é a matriz identidade.</p>]]></text>
     </answer>
   </question>
 
-<!-- question: I7_Q5_autovetor_diagonalizacao -->
+<!-- question: I7_Q5_quantidade_autovetores_autovalor_repetido -->
   <question type="multichoice">
     <name>
-      <text>I7_Q5_autovetor_diagonalizacao</text>
+      <text>I7_Q5_quantidade_autovetores_autovalor_repetido</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p>Seja a matriz C = [[0, 1], [-2, 3]], cujos autovalores s&atilde;o &lambda; = 1 e &lambda; = 2. Resolvendo (C - 2I)v = 0, qual &eacute; o autovetor associado a &lambda; = 2, na forma mais simples com componentes inteiras e primeira componente igual a 1?</p>]]></text>
+      <text><![CDATA[<p>Sejam</p><p><strong>B</strong> = [[3,1], [0,3]] &nbsp;&nbsp; <strong>S2</strong> = [[2,1,1], [1,2,1], [1,1,2]]</p><p>Em ambas, um autovalor aparece repetido (<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#955;</mi><mo>=</mo><mn>3</mn></math> em <strong>B</strong>, com multiplicidade 2; <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#955;</mi><mo>=</mo><mn>1</mn></math> em <strong>S2</strong>, com multiplicidade 2). Calcule <code>B.eigenvects()</code> e <code>S2.eigenvects()</code> com SymPy e observe quantos vetores linearmente independentes são retornados para cada autovalor repetido. Qual das afirmações é <strong>verdadeira</strong>?</p>]]></text>
     </questiontext>
     <defaultgrade>1.0000000</defaultgrade>
     <penalty>0.3333333</penalty>
@@ -128,16 +128,16 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <answer fraction="100" format="html">
-      <text><![CDATA[<p>(1, 2)</p>]]></text>
+      <text><![CDATA[<p>Para <strong>B</strong>, apenas 1 vetor é retornado para o autovalor repetido; para <strong>S2</strong>, 2 vetores linearmente independentes são retornados.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>(1, 1)</p>]]></text>
+      <text><![CDATA[<p>Para <strong>B</strong> e para <strong>S2</strong>, 2 vetores linearmente independentes são retornados para o autovalor repetido.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>(2, 1)</p>]]></text>
+      <text><![CDATA[<p>Para <strong>B</strong> e para <strong>S2</strong>, apenas 1 vetor é retornado para o autovalor repetido.</p>]]></text>
     </answer>
     <answer fraction="0" format="html">
-      <text><![CDATA[<p>(1, -2)</p>]]></text>
+      <text><![CDATA[<p>Para <strong>B</strong>, 2 vetores linearmente independentes são retornados; para <strong>S2</strong>, apenas 1 vetor é retornado.</p>]]></text>
     </answer>
   </question>
 
